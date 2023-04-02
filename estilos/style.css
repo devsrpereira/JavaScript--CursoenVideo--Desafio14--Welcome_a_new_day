@@ -1,0 +1,57 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --cor01:#D9A86C;
+    --cor02:#FCA472;
+    --cor03:#3D4F73;
+}
+
+
+html, body{
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+h1{
+    padding-bottom: 15px;
+    
+}
+section{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.532);
+    border-radius: 15px;
+    font-size: 1.2em;
+
+}
+section div#imsg {
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+
+}
+div#foto>img{
+    margin: auto;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center bottom ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
+    
+}
+footer{
+    color: white;
+    padding-top: 20px;
+}
+
+
